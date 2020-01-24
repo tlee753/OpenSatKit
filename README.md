@@ -4,11 +4,11 @@ The Core Flight System (cFS) provides a portable and extendible framework augmen
 solutions. The framework defines a layered architecture that provides a hardware and operating system independent application runtime 
 environment.
 
-![cFS Layered Architecture](https://github.com/OpenSatKit/OpenSatKit/tree/master/docs/img/cfs-layered-arch.png)
+![cFS Layered Architecture](./docs/img/cfs-layered-arch.png)
 
 NASA maintains the cFS and community members, including NASA, provide components and distributions. 
 
-![cFS Product Model](https://github.com/OpenSatKit/OpenSatKit/tree/master/docs/img/cfs-product-model.png)
+![cFS Product Model](./docs/img/cfs-product-model.png)
 
 __OpenSatKit__ is a cFS distribution that is intended to
 
@@ -20,7 +20,7 @@ __OpenSatKit__ is a cFS distribution that is intended to
 
 [Wiki Overview](https://github.com/OpenSatKit/OpenSatKit/wiki)
 
-[Quick Start PDF Guide](https://github.com/OpenSatKit/OpenSatKit/tree/master/docs/OSK-Quick-Start-Guide.pdf)
+[Quick Start PDF Guide](./docs/OSK-Quick-Start-Guide.pdf)
 
 ### Installation (Ubuntu only)
 
