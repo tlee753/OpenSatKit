@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 OPEN_SAT_KIT_VERSION="1.6.0"
-BASE_DIR="$(pwd)"
+BASE_DIR="$PWD"
 
 # Intentional order: OSK Archive, Dependencies, COSMOS, Build System 
 # - Dependencies cover OSK's needs, COSMOS may need additional ones
@@ -13,8 +13,8 @@ main()
 announce "INSTALLATION WILL TAKE TIME AND INCLUDES PROMPTS!"
 
 # set default path unless environment var exists
-if [ ! -n "${!OPEN_SAT_KIT_PATH}" ]; then
-   OPEN_SAT_KIT_PATH="`pwd`/OpenSatKit-master/"
+if [ -z  "${OPEN_SAT_KIT_PATH}" ]; then
+   OPEN_SAT_KIT_PATH="$BASE_DIR/OpenSatKit-master/"
 fi
 
 announce "Installing OpenSatKit v$OPEN_SAT_KIT_VERSION in \"$OPEN_SAT_KIT_PATH\""
